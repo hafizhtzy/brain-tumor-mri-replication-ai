@@ -1,0 +1,31 @@
+Hyperparameter Tuning Summary
+
+Eksperimen utama:
+- Model terbaik: EfficientNetB0
+- Epoch: 8
+- Batch size: 32
+- Learning rate: 0.0001
+- Optimizer: Adam
+- Accuracy: 82.38%
+- Precision: 82.35%
+- Recall: 82.38%
+- F1-score: 81.99%
+
+Strategi tuning yang dilakukan:
+1. Pemilihan tiga arsitektur transfer learning:
+   - ResNet50
+   - EfficientNetB0
+   - MobileNetV2
+
+2. Penggunaan learning rate kecil 0.0001 untuk menjaga kestabilan training.
+
+3. Penggunaan batch size 32 untuk menyeimbangkan kecepatan training dan stabilitas gradien.
+
+4. Penggunaan augmentasi data:
+   - Random horizontal flip
+   - Random rotation
+   - Brightness adjustment
+   - Contrast adjustment
+
+Kesimpulan:
+Berdasarkan hasil eksperimen, EfficientNetB0 memberikan performa terbaik dibanding ResNet50 dan MobileNetV2. Hal ini menunjukkan bahwa pemilihan arsitektur model berpengaruh terhadap performa klasifikasi citra MRI tumor otak.

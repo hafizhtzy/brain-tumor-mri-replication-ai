@@ -1,0 +1,16 @@
+# Install PyTorch GPU sesuai website resmi PyTorch jika command ini belum GPU:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+# Alternatif terbaru lihat: https://pytorch.org/get-started/locally/
+torch
+torchvision
+torchaudio
+numpy
+pandas
+matplotlib
+scikit-learn
+seaborn
+opencv-python
+pillow
+jupyter
+openpyxl
+tqdm

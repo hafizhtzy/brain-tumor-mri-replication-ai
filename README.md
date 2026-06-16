@@ -102,6 +102,14 @@ This project includes several result visualizations:
 
 Grad-CAM is used only for academic interpretability and not for clinical diagnosis.
 
+## GitHub Repository
+
+The source code, notebook, experimental results, figures, and draft article are also available in this GitHub repository:
+
+https://github.com/hafizhtzy/brain-tumor-mri-replication-ai
+
+This repository is provided as additional documentation to support reproducibility.
+
 ## Repository Structure
 
 ```text
@@ -114,10 +122,4 @@ brain-tumor-mri-replication-ai/
 ├── README.md
 └── requirements.txt
 
-## GitHub Repository
 
-The source code, notebook, experimental results, figures, and draft article are also available in this GitHub repository:
-
-https://github.com/hafizhtzy/brain-tumor-mri-replication-ai
-
-This repository is provided as additional documentation to support reproducibility.
